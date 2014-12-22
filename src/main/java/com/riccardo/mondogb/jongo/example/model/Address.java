@@ -1,10 +1,25 @@
 package com.riccardo.mondogb.jongo.example.model;
 
+import java.io.StringWriter;
+
+import org.jongo.marshall.jackson.oid.Id;
+
 public class Address {
+
+	@Id
+	private Long addressId;
 	private String houseNumber;
 	private String road;
 	private String town;
 	private String postalCode;
+
+	public Long getAddressId() {
+		return addressId;
+	}
+
+	public void setAddressId(Long addressId) {
+		this.addressId = addressId;
+	}
 
 	public String getHouseNumber() {
 		return houseNumber;
@@ -37,8 +52,16 @@ public class Address {
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
 	}
-	
-	public void print(){
-		System.out.format("### Address: %s %s, %s, %s \n",this.houseNumber, this.road, this.town, this.postalCode);
+
+	@Override
+	public String toString() {
+		StringWriter sw = new StringWriter();
+		sw.append(this.getAddressId().toString());
+		sw.append(this.houseNumber);
+		sw.append(this.road);
+		sw.append(this.town);
+		sw.append(this.postalCode);
+		return sw.toString();
 	}
+
 }

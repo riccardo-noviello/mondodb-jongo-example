@@ -1,24 +1,23 @@
-
 package com.riccardo.mondogb.jongo.example.core;
 
 /**
  * This class stores all the collection names
+ * 
  * @author riccardo
  *
  */
 public enum CollectionNames {
 
-  PERSONS("persons"),
+	PERSONS("persons"),
+	ORDERS("orders");
 
-  ORDERS("orders");
-  
-  private String name;
+	private String name;
 
-  private CollectionNames(String inName) {
-    name = inName;
-  }
+	private CollectionNames(String inName) {
+		name = inName;
+	}
 
-  public String getName() {
-    return name;
-  }
+	public String getName() {
+		return name;
+	}
 }
