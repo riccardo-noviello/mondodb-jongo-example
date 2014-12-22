@@ -6,7 +6,7 @@ import org.jongo.MongoCollection;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.riccardo.mondogb.jongo.example.core.CollectionNames;
+import com.riccardo.mondogb.jongo.example.data.CollectionNames;
 import com.riccardo.mondogb.jongo.example.data.Database;
 
 public class ManualQuery {

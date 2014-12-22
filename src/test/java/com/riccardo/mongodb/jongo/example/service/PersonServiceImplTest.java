@@ -12,7 +12,7 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.riccardo.mondogb.jongo.example.core.CollectionNames;
+import com.riccardo.mondogb.jongo.example.data.CollectionNames;
 import com.riccardo.mondogb.jongo.example.data.Database;
 import com.riccardo.mondogb.jongo.example.model.Address;
 import com.riccardo.mondogb.jongo.example.model.Person;

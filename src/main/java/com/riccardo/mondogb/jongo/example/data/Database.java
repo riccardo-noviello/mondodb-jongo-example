@@ -11,7 +11,6 @@ import com.mongodb.DB;
 import com.mongodb.Mongo;
 import com.mongodb.MongoURI;
 import com.riccardo.mondogb.jongo.example.core.AppUtils;
-import com.riccardo.mondogb.jongo.example.core.CollectionNames;
 
 public class Database {
 

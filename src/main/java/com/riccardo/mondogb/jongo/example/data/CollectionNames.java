@@ -1,4 +1,4 @@
-package com.riccardo.mondogb.jongo.example.core;
+package com.riccardo.mondogb.jongo.example.data;
 
 /**
  * This class stores all the collection names
