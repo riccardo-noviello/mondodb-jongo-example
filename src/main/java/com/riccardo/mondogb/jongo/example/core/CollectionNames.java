@@ -1,5 +1,5 @@
 
-package config;
+package com.riccardo.mondogb.jongo.example.core;
 
 /**
  * This class stores all the collection names

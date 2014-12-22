@@ -1,4 +1,4 @@
-package model;
+package com.riccardo.mondogb.jongo.example.model;
 
 public class Address {
 	private String houseNumber;

@@ -1,15 +1,17 @@
-package service;
+package com.riccardo.mondogb.jongo.example.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Address;
-import model.Person;
+import com.riccardo.mondogb.jongo.example.model.Address;
+import com.riccardo.mondogb.jongo.example.model.Person;
 
 import org.jongo.MongoCollection;
 
-import config.CollectionNames;
-import config.Database;
+import com.riccardo.mondogb.jongo.example.core.CollectionNames;
+import com.riccardo.mondogb.jongo.example.core.CollectionNames;
+import com.riccardo.mondogb.jongo.example.data.Database;
+import com.riccardo.mondogb.jongo.example.data.Database;
 
 public class PersonServiceImpl extends PersonService{
 	

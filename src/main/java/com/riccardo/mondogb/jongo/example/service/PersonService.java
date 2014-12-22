@@ -1,9 +1,9 @@
-package service;
+package com.riccardo.mondogb.jongo.example.service;
 
 import java.util.List;
 
-import model.Address;
-import model.Person;
+import com.riccardo.mondogb.jongo.example.model.Address;
+import com.riccardo.mondogb.jongo.example.model.Person;
 
 public abstract class PersonService {
 	

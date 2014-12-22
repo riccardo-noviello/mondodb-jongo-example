@@ -1,4 +1,4 @@
-package model;
+package com.riccardo.mondogb.jongo.example.model;
 
 import java.util.ArrayList;
 import java.util.List;
