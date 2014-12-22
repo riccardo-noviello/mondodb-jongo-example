@@ -60,7 +60,7 @@ public class Database {
 			return true;
 
 		} catch (UnknownHostException ex) {
-			Logger.getLogger(Database.class.getName()).log(Level.SEVERE, null, ex);
+			logger.log(Level.SEVERE, null, ex);
 		}
 		return false;
 
